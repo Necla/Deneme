@@ -1,0 +1,36 @@
+---
+title: "Add and Substract Squares of Two Variables"
+author: "Necla Kochan"
+date: "`r format(Sys.Date(), '%d.%m.%Y')`"
+abstract: >
+  Personalized Medicine and Advanced Analytics research group provides advanced analytics solutions for personalized medicine related problems, which includes the diagnosis, prognosis and treatment of diseases. For this purpose, our group uses clinical and –omics data, and utilize and further develop biostatistics and machine learning methods, tools and workflows.
+  
+output:
+  rmarkdown::html_document:
+    highlight: pygments
+    toc: true
+    fig_width: 5
+#bibliography: library.bib
+vignette: >
+  %\VignetteIndexEntry{Add and Substract Squares of Two Variabless}
+  %\VignetteEncoding{UTF-8}
+  %\usepackage[utf8]{inputenc}
+  %\VignetteEngine{knitr::rmarkdown}
+---
+
+```{r setup, echo=FALSE, results="hide"}
+knitr::opts_chunk$set(tidy = FALSE,
+                      cache = FALSE,
+                      dev = "png",
+                      message = FALSE, error = FALSE, warning = TRUE)
+```	
+
+&nbsp;
+
+In this vignette you will learn how to use the package to take the sum 
+and difference of two variables.
+`denemepkg` package can be loaded as below:
+
+```{r}
+library(denemepkg)
+```
