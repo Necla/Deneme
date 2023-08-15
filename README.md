@@ -1,2 +1,2 @@
 # Deneme
- 
+bu bir denemedir.  
